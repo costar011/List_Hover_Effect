@@ -50,16 +50,16 @@ ul li:hover::before {
 }
 
 ul li span {
-    position: absolute;
-    top: 50%;
-    left: 0px;
-    transform: translate(-10px , -50%);
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translate(-10px, -50%);
 
-    z-index: -2;
-    font-size: 100px;
-    opacity: 0.01;
-    width: 80px;
+  z-index: -2;
+  font-size: 100px;
+  opacity: 0.01;
+  width: 80px;
 
-    text-align: center;
-    transition: all 0.6s;
+  text-align: center;
+  transition: all 0.6s;
 }
