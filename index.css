@@ -59,3 +59,10 @@ ul li span {
     text-align: center;
     transition: all 0.6s;
 }
+
+ul li:hover span {
+    opacity: 1;
+    color: rgba(129,129,255,0.242);
+    filter: blur(30px);
+    transform: translate(-40px, -50%);
+}
